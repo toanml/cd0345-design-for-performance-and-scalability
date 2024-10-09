@@ -1,0 +1,30 @@
+﻿Estimate summary,,,,,,,,,
+Upfront cost,Monthly cost,Total 12 months cost,Currency,,,,,,
+0,18087.18,217046.16,USD,,,,,,
+,,* Includes upfront cost,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Detailed Estimate,,,,,,,,,
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (N. Virginia),,S3 Standard,0,23.55,282.6,USD,,S3 Standard storage (1 TB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,,
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,128.88,1546.56,USD,,"Data transfer out to internet (1 TB per month), Data transfer out to origin (100 GB per month), Number of requests (HTTPS) (100 per month)"
+My Estimate,US East (N. Virginia),,Amazon EC2 ,0,8659.8,103917.6,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 12), Advance EC2 instance (r5.4xlarge), Pricing strategy ( 1yr  No Upfront), Enable monitoring (enabled), EBS Storage amount (1 TB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon Aurora MySQL-Compatible,0,5309.93,63719.16,USD,,"Aurora MySQL Cluster Configuration Option (Aurora Standard), Change records per statement (0.38), Instance Type (db.r5.4xlarge), Nodes (4), Utilization (100 %Utilized/Month), Instance Family (Memory optimized), Pricing Model (Reserved), Lease Offering Term (1yr), Purchase Option (No Upfront), Storage amount (1 TB), Cost for one month of retention (per vCPU per month) (1.5000000000), Cost for total retention (per vCPU per month) (1.50), Total Size of Backup Processed for Export (GB) (100 per month)"
+My Estimate,US East (N. Virginia),,VPN Connection,0,1646,19752,USD,,"Working days per month (30), Number of subnet associations (2)"
+My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,78.93,947.16,USD,,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),,Public IPv4 Address,0,3.65,43.8,USD,,Number of In-use public IPv4 addresses (1)
+My Estimate,US East (N. Virginia),,Gateway Load Balancer,0,563.93,6767.16,USD,,"Number of Availability Zones that Gateway Load Balancer is deployed to (1), Number of Gateway Load Balancer Endpoints (1), Average connection/flow duration (100 seconds), Total processed bytes (100 GB per hour)"
+My Estimate,US East (N. Virginia),,S3 Standard - Infrequent Access,0,1.25,15,USD,,S3 Standard-IA storage (100 GB per month)
+My Estimate,US East (N. Virginia),,S3 Glacier Deep Archive,0,0.01,0.12,USD,,"S3 Glacier Deep Archive Average Object Size (16 MB), S3 Glacier Deep Archive storage (10 GB per month)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,1671.25,20055,USD,,Number of Application Load Balancers (2)
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Acknowledgement,,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,,
+,,,,,,,,,
+Changed:,,,,,,,,,
+"Amazon EC2: Use 12 instances, enable monitoring and use 1TB for EBS",,,,,,,,,
+VPN Connection: enable Network Gateway and 1 public IPv4,,,,,,,,,
+Amazon Aurora MySQL-Compatible: Use 4 instances,,,,,,,,,
